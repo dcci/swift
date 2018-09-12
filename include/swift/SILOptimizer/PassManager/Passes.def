@@ -284,6 +284,7 @@ PASS(MarkUninitializedFixup, "mark-uninitialized-fixup",
      "Temporary pass for staging in mark_uninitialized changes.")
 PASS(SimplifyUnreachableContainingBlocks, "simplify-unreachable-containing-blocks",
      "Utility pass. Removes all non-term insts from blocks with unreachable terms")
+PASS(SCCP, "sccp", "Sparse conditional constant propagation")
 PASS(SerializeSILPass, "serialize-sil",
      "Utility pass. Serializes the current SILModule")
 PASS(BugReducerTester, "bug-reducer-tester",
